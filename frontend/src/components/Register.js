@@ -20,7 +20,7 @@ export const Register = () => {
     };
 
     try {
-      const res = await axios.post("/register", data);
+      const res = await axios.post("https://authentication-system-q5t5.onrender.com/register", data);
 
       console.log(res.data);
       alert("Registration Successful");
