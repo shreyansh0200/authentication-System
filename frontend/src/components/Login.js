@@ -26,7 +26,7 @@ export const Login = () => {
       //redirect to dashboard
       setTimeout(() => {
         navigate("/dashboard");
-      }, 1000);  
+      }, 100);  
 
     } catch (err) {
       console.log(err);
