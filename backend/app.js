@@ -11,6 +11,13 @@ const auth = require("./middleware/auth")
 
 const loginRouter = require("./routers/loginRoute")
 const registerRouter = require("./routers/registerRoute")
+const cors = require("cors");
+app.use(
+  cors({
+    origin: "http://localhost:4000",
+    credentials: true,
+  })
+);
 
 app.use(express.urlencoded({extended:true}))
 app.use(cookieParser())
