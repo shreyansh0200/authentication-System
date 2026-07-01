@@ -14,7 +14,7 @@ const registerRouter = require("./routers/registerRoute")
 const cors = require("cors");
 app.use(
   cors({
-    origin: "http://localhost:4000",
+    origin: "https://authentication-system-ten-rosy.vercel.app/",
     credentials: true,
   })
 );
