@@ -2,6 +2,12 @@
 
 A full-stack Authentication System built using the MERN stack. The application allows users to register, log in securely using JWT authentication, and access a protected dashboard. Passwords are encrypted using bcrypt, and user data is stored in MongoDB Atlas.
 
+
+## 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://authentication-system-ten-rosy.vercel.app/)
+[![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render)](https://authentication-system-q5t5.onrender.com)
+
 ---
 
 ## 🚀 Features
