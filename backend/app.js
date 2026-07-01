@@ -24,9 +24,13 @@ app.use(cookieParser())
 app.use(express.json())
 
 
-app.get("/",(req,res)=>{
-    res.send("<h1>app is get started </h1>")
-})
+app.get("/", (req, res) => {
+  res.send(`
+    <h1>😎 Just chill, bro!</h1>
+    <p>You're looking at the backend server.</p>
+    <p>Use <strong>Postman</strong>, <strong>Hoppscotch</strong>, or the frontend application to interact with the API.</p>
+  `);
+});
 
 app.use('/',loginRouter)
 app.use('/',registerRouter)
