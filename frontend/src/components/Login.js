@@ -14,7 +14,7 @@ export const Login = () => {
     };
 
     try {
-      const res = await axios.post("/login", data);
+      const res = await axios.post("https://authentication-system-q5t5.onrender.com/login", data);
       // Save token
       localStorage.setItem("token", res.data.token);
 
