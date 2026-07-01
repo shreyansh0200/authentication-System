@@ -8,7 +8,7 @@ export const Dashboard = () => {
     localStorage.removeItem("token");
     setTimeout(()=>{
       navigate("/login");
-    },1000)
+    },100)
     
   };
   return (
